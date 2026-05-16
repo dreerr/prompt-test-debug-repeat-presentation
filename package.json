@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@slidev/cli": "^52.15.1",
-    "@slidev/theme-default": "^0.25.0"
+    "@slidev/theme-apple-basic": "^0.25.1",
+    "@slidev/theme-default": "^0.25.0",
+    "slidev-theme-nicodevs": "^0.1.1",
+    "slidev-theme-the-unnamed": "^0.0.23"
   }
 }
