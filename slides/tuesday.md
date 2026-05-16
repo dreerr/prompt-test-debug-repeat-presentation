@@ -21,6 +21,16 @@ layout: section
 layout: center
 ---
 
+<SlidevVideo v-click autoplay controls>
+  <source src="/The Man in the Bottle Trim.mp4" type="video/mp4">
+</SlidevVideo>
+
+Source: [The Man in the Bottle (Twilight Zone, 1960)](https://en.wikipedia.org/wiki/The_Man_in_the_Bottle)
+
+---
+layout: center
+---
+
 # Intro Round
 
 Three questions. No pressure.
@@ -32,6 +42,17 @@ Three questions. No pressure.
 - Which LLM tools have you used? What have you already vibe-coded?
 
 </v-clicks>
+
+---
+layout: center
+---
+
+<SlidevVideo v-click autoplay controls>
+  <source src="/Exact Instructions Challenge Trim.mp4" type="video/mp4">
+</SlidevVideo>
+
+Source: [Josh Darnit: Exact Instructions Challenge (2017)](https://www.youtube.com/watch?v=cDA3_5982h8)
+
 
 ---
 layout: section
@@ -47,12 +68,12 @@ layout: center
 
 Partner up. No screens.
 
-**Describe an animation to your neighbor**  
+**Describe an animation to your neighbor**
 as if you were typing it into an AI at the board.
 
 <v-click>
 
-> Goal: feel what *precise and complete* means  
+> Goal: feel what *precise and complete* means
 > before you open a laptop.
 
 </v-click>
@@ -135,13 +156,13 @@ layout: center
 
 <v-clicks>
 
-**What's inside:**  
+**What's inside:**
 System prompt · conversation history · open files · error messages · tool results
 
-**Why it matters:**  
+**Why it matters:**
 Full or noisy → quality drops. New session = clean slate.
 
-**Rule of thumb:**  
+**Rule of thumb:**
 Short sessions. Targeted context. Don't cram everything in.
 
 </v-clicks>
@@ -152,13 +173,13 @@ Short sessions. Targeted context. Don't cram everything in.
 
 <v-clicks>
 
-**Hallucinations**  
+**Hallucinations**
 The model invents facts confidently. Test everything. Never trust blindly.
 
-**Model differences**  
+**Model differences**
 Not all LLMs are equal — context size, capabilities, and costs vary.
 
-**Tokens & costs**  
+**Tokens & costs**
 Tokens are the unit of work. Relevant for rate limits and API pricing.
 
 </v-clicks>
@@ -175,7 +196,7 @@ layout: center
 
 # Quick quiz.
 
-I'll show you a term.  
+I'll show you a term.
 You tell me what it is.
 
 ---
@@ -188,7 +209,7 @@ layout: center
 
 <v-click>
 
-Describes structure and content.  
+Describes structure and content.
 Not a program. No logic. Just: **"what is what."**
 
 </v-click>
@@ -203,7 +224,7 @@ layout: center
 
 <v-click>
 
-Instructions that execute at runtime.  
+Instructions that execute at runtime.
 Runs as-is — no build step needed.
 
 </v-click>
@@ -216,7 +237,7 @@ layout: center
 
 <v-click>
 
-**Frontend** — runs in the browser. Visible.  
+**Frontend** — runs in the browser. Visible.
 **Backend** — runs on a server. Invisible. Handles logic, data, auth.
 
 </v-click>
@@ -243,7 +264,7 @@ layout: center
 
 <v-click>
 
-**Library** — ready-made code for a specific job.  
+**Library** — ready-made code for a specific job.
 **Package** — how that code gets distributed and installed.
 
 `npm install x` → done.
@@ -357,7 +378,7 @@ layout: section
 
 <v-click>
 
-> Feel the loop:  
+> Feel the loop:
 > **Prompt → Output → Test → Correct → Repeat**
 
 </v-click>
