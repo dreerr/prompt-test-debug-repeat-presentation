@@ -1,3 +1,5 @@
 # Prompt, Test, Debug, Repeat
 
 This repository contains the slides and materials for the Prompt, Test, Debug, Repeat Vibecoding workshop.
+
+In the [docs](docs/) folder, you can find an overview of the workshop plan, including the schedule and the topics covered each day. The [slides](slides/) folder contains the presentation slides used during the workshop.

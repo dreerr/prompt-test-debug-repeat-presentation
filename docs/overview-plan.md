@@ -7,7 +7,7 @@
 ### Eröffnung
 - **Modalitäten:** Anwesenheitspflicht, Eintrag in Anwesenheitsliste via Discord, max. 1 Fehltag
 - **Wochenplan:** Überblick über alle 5 Tage, Ziele, Erwartungen an die Gruppe
-- **Vorstellungsrunde** (strukturiert): Was will ich diese Woche lernen? Was interessiert mich nicht? Welche LLM-Tools nutze ich, wo hab ich Accounts? Was hab ich schon mit Vibe Coding gemacht?
+- **Vorstellungsrunde** (strukturiert): Was will ich diese Woche schaffen? Was interessiert mich nicht? Welche LLM-Tools nutze ich, wo hab ich Accounts? Was hab ich schon mit Vibe Coding gemacht?
 
 ### Übung: Prompting ohne Computer
 Nur Zettel & Stift. Aufgabe: Mit dem Sitznachbar eine Animation beschreiben, die an der Tafel gepromptet werden könnte. Ziel: Präzision und Vollständigkeit von Prompts erfahren, bevor man den Computer aufmacht.
@@ -21,11 +21,13 @@ Nur Zettel & Stift. Aufgabe: Mit dem Sitznachbar eine Animation beschreiben, die
 ### Frontaleinheit I: KI verstehen
 
 **Prompting für Coding-Agenten**
-- Kontext zuerst, Aufgabe danach
-- Eine Sache pro Prompt
-- Erwartetes Output-Format angeben
-- Negative Constraints ("nicht", "ohne X") explizit formulieren
-- Fehler beschreiben, nicht theoretisieren
+
+- **Kontext vor Aufgabe:** Erkläre zuerst was das Projekt ist, was bereits existiert, was das Ziel ist – dann erst die konkrete Aufgabe. Das Modell braucht den Rahmen.
+- **Bekannte Frameworks benennen:** Sag "mach das mit Tailwind" oder "verwende vanilla JavaScript" – nicht "mach es schön". Bekannte Namen reduzieren Interpretationsspielraum.
+- **Screenshots und Beispiele mitgeben:** Ein Bild des gewünschten Ergebnisses, eine URL, ein Referenz-Screenshot – das ist oft präziser als Worte.
+- **Weder zu vage noch zu over-specific:** "Mach eine Webseite" ist zu offen. Aber 10 Anforderungen auf einmal überfordern das Modell genauso. Eine klare Hauptaufgabe, 2–3 Constraints.
+- **Erwartetes Ergebnis beschreiben, nicht den Weg:** "Ich will dass beim Klick auf den Button die Farbe wechselt" – nicht "ändere die onClick-Funktion in Zeile 42 so dass...". Den Weg findet das Modell selbst.
+- **Negative Constraints explizit:** "Ohne externe Libraries", "keine neuen Dateien anlegen", "ändere nichts am bestehenden CSS" – was nicht passieren soll, muss gesagt werden.
 
 **Was können LLMs gut / schlecht?**
 
@@ -68,8 +70,38 @@ Nur Zettel & Stift. Aufgabe: Mit dem Sitznachbar eine Animation beschreiben, die
 | **Server** | Ein Computer, der dauerhaft läuft und auf Anfragen wartet |
 | **Client** | Das Gerät/Programm, das Anfragen stellt (z.B. der Browser) |
 | **API** | Definierte Schnittstelle zwischen zwei Systemen; "Wie rede ich mit X?" |
-| **Library** | Fertige Codesammlung für eine bestimmte Aufgabe (z.B. Datumsformatierung) |
+| **Library** | Fertige Codesammlung für eine bestimmte Aufgabe |
 | **Package** | Verteilungsformat für Libraries; wird via Package-Manager installiert |
+
+---
+
+**Orientierungskarte: Paradigmen, die du kennen solltest**
+
+Nicht als Lernziel – als Kontext. Wenn das Modell sagt "dafür brauchst du einen Backend-Server", solltest du wissen, was das bedeutet und was es impliziert.
+
+**Version Control mit Git**
+Beispiel: zwei Personen ändern dieselbe Datei – was passiert? Git trackt jede Änderung, wer sie gemacht hat, wann. Kein `_final_wirklichFinal.html` mehr.
+
+**Package Management**
+Beispiel: `npm install` lädt eine Library herunter und macht sie im Projekt verfügbar. Das Modell schreibt `import X from 'Y'` – woher kommt Y? Aus dem Package-Manager.
+
+**APIs und wie man mit ihnen kommuniziert**
+Beispiel: Wetter-App fragt einen Wetter-Server per HTTP-Request an, bekommt JSON zurück, zeigt es an. Das ist eine API. Du brauchst meist einen Key – und damit ein Konto, Kosten, Rate Limits.
+
+**Type Safety**
+Beispiel: `"5" + 5` ergibt in JavaScript `"55"`, in Python einen Fehler. Maschinen brauchen eindeutige Typen; Menschen denken implizit. Typisierte Sprachen erzwingen Klarheit – das Modell wählt manchmal typed, manchmal nicht, du solltest den Unterschied kennen.
+
+**Compiled vs. Interpreted**
+Beispiel: Python-Script läuft direkt; ein C-Programm muss erst gebaut werden, bevor es läuft. Relevant wenn das Modell sagt "du musst das erst kompilieren."
+
+**Rendering Environments**
+Beispiel: JavaScript läuft im Browser (Frontend), aber auch auf dem Server (Node.js) und im Terminal. Derselbe Code, drei verschiedene Kontexte – nicht jede Library funktioniert überall.
+
+**Datenformate: JSON & CSV**
+Beispiel: JSON ist was zwischen Systemen reist – `{"name": "Anna", "age": 24}`. CSV ist tabellarisch – Spreadsheet als Textdatei. APIs antworten meist mit JSON; Daten-Exports oft als CSV.
+
+**Environments & "Works on my machine"**
+Beispiel: Das Projekt läuft lokal, aber nicht beim Kommilitonen – weil eine Library fehlt, die du nie explizit installiert hast, weil sie schon da war. Environments (`.env`-Files, `requirements.txt`, `package.json`) lösen das durch explizite Deklaration aller Abhängigkeiten.
 
 **VS Code – Interface-Einführung**
 - **Explorer** (links): Datei- und Ordnerstruktur des Projekts
