@@ -1,0 +1,16 @@
+{
+  "name": "vibecoding-slides",
+  "version": "1.0.0",
+  "description": "Prompt, Test, Debug, Repeat — Vibe Coding Workshop",
+  "author": "Julian Palacz",
+  "license": "ISC",
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.15.1",
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
