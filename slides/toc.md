@@ -13,7 +13,7 @@ layout: default
 | Day | Theme | Focus |
 |-----|-------|-------|
 | **Tuesday** | Basics & Tools | AI + Code fundamentals, Copilot first steps |
-| **Wednesday** | Methods & Conception | PRDs, specs, group formation |
+| **Wednesday** | Methods & Conception | Lightning talks, PRDs, specs, group formation |
 | **Thursday** | Build | Project work, day 1 |
 | **Friday** | Build | Project work, day 2 |
 | **Saturday** | Ship It | Polish, deploy, present |
