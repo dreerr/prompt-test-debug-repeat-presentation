@@ -22,7 +22,7 @@ layout: center
 ---
 
 <SlidevVideo v-click autoplay controls>
-  <source src="/The Man in the Bottle Trim.mp4" type="video/mp4">
+  <source :src="'/The Man in the Bottle Trim.mp4'" type="video/mp4">
 </SlidevVideo>
 
 Source: [The Man in the Bottle (Twilight Zone, 1960)](https://en.wikipedia.org/wiki/The_Man_in_the_Bottle)
@@ -48,7 +48,7 @@ layout: center
 ---
 
 <SlidevVideo v-click autoplay controls>
-  <source src="/Exact Instructions Challenge Trim.mp4" type="video/mp4">
+  <source :src="'/Exact Instructions Challenge Trim.mp4'" type="video/mp4">
 </SlidevVideo>
 
 Source: [Josh Darnit: Exact Instructions Challenge (2017)](https://www.youtube.com/watch?v=cDA3_5982h8)
