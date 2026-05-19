@@ -14,17 +14,17 @@ src: ./slides/toc.md
 ---
 
 ---
-src: ./slides/tuesday.md
+src: ./slides/1-tuesday.md
 ---
 
 ---
-src: ./slides/wednesday.md
+src: ./slides/2-wednesday.md
 ---
 
 ---
-src: ./slides/thursday-friday.md
+src: ./slides/3-thursday-friday.md
 ---
 
 ---
-src: ./slides/saturday.md
+src: ./slides/4-saturday.md
 ---

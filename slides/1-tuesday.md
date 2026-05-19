@@ -11,9 +11,14 @@ layout: section
 
 <v-clicks>
 
-- Attendance required — sign in via Discord
-- Max 1 absence
-- Week goal: feel the loop
+- Attendance required, sign in via Discord
+- Offline and online sessions
+
+## Examination modalities
+
+- Build a project using LLM tools
+- Present it on the last day
+- Deploy it on a public URL (GitHub Pages, Netlify, Vercel)
 
 </v-clicks>
 
@@ -95,7 +100,7 @@ The point: vague language fails. Precision isn't pedantry, it's communication.
 layout: section
 ---
 
-# Part I: Understanding AI
+# Part I: <br> Understanding AI (a bit better)
 
 ---
 
