@@ -38,28 +38,10 @@ Describe the game of **Tic Tac Toe**
 without using the words <br/>
 "Tic Tac Toe", "three", "row", or "line".
 
-<v-click>
-
 > Goal: feel what *precise and complete* means
-> before you open a laptop.
 
-<Countdown :minutes="0" :seconds="3" :autostart="false" />
+<Countdown :minutes="5" :autostart="false" />
 
-</v-click>
-
----
-layout: center
----
-
-<SlidevVideo v-click autoplay controls>
-  <source :src="`${base}The Man in the Bottle Trim.mp4`" type="video/mp4">
-</SlidevVideo>
-
-Source: [The Man in the Bottle (Twilight Zone, 1960)](https://en.wikipedia.org/wiki/The_Man_in_the_Bottle)
-
-<script setup>
-const base = import.meta.env.BASE_URL
-</script>
 
 ---
 layout: section
@@ -81,6 +63,20 @@ layout: section
 - **Explicit negatives** — "no external libs", "don't touch the CSS", "no new files"
 
 </v-clicks>
+
+---
+layout: center
+---
+
+<SlidevVideo v-click autoplay controls>
+  <source :src="`${base}The Man in the Bottle Trim.mp4`" type="video/mp4">
+</SlidevVideo>
+
+Source: [The Man in the Bottle (Twilight Zone, 1960)](https://en.wikipedia.org/wiki/The_Man_in_the_Bottle)
+
+<script setup>
+const base = import.meta.env.BASE_URL
+</script>
 
 ---
 layout: center

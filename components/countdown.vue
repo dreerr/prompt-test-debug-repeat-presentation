@@ -40,7 +40,6 @@ const formattedTime = computed(() => {
 let timer
 const resetTimer = () => {
     elapsed.value = 0
-    hasFinishedBeeped.value = false
     if(!timer) {
         startTimer()
     }
