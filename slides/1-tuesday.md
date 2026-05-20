@@ -6,53 +6,6 @@ layout: section
 ## Basics & Tools
 
 ---
-
-# Admin
-
-<v-clicks>
-
-- Attendance required, sign in via Discord
-- Offline and online sessions
-
-## Examination modalities
-
-- Build a project using LLM tools
-- Present it on the last day
-- Deploy it on a public URL (GitHub Pages, Netlify, Vercel)
-
-</v-clicks>
-
----
-layout: center
----
-
-<SlidevVideo v-click autoplay controls>
-  <source :src="`${base}The Man in the Bottle Trim.mp4`" type="video/mp4">
-</SlidevVideo>
-
-Source: [The Man in the Bottle (Twilight Zone, 1960)](https://en.wikipedia.org/wiki/The_Man_in_the_Bottle)
-
-<script setup>
-const base = import.meta.env.BASE_URL
-</script>
-
----
-layout: center
----
-
-# Intro Round
-
-Three questions. No pressure.
-
-<v-clicks>
-
-- What do you want to **build** this week?
-- What are you **not** interested in?
-- Which LLM tools have you used? What have you already vibe-coded?
-
-</v-clicks>
-
----
 layout: center
 ---
 
@@ -71,7 +24,7 @@ const base = import.meta.env.BASE_URL
 layout: section
 ---
 
-# Exercise: Prompt Without a Computer
+# Exercise: <br> Prompt Without a Computer
 
 ---
 layout: center
@@ -79,22 +32,34 @@ layout: center
 
 # Pen & Paper
 
-Partner up. No screens.
+No screens.
 
-**Describe an animation to your neighbor**
-as if you were typing it into an AI at the board.
+Describe the game of **Tic Tac Toe**
+without using the words <br/>
+"Tic Tac Toe", "three", "row", or "line".
 
 <v-click>
 
 > Goal: feel what *precise and complete* means
 > before you open a laptop.
 
+<Countdown :minutes="0" :seconds="3" :autostart="false" />
+
 </v-click>
 
-<!--
-Give them ~8 min. Then actually prompt one or two descriptions live.
-The point: vague language fails. Precision isn't pedantry, it's communication.
--->
+---
+layout: center
+---
+
+<SlidevVideo v-click autoplay controls>
+  <source :src="`${base}The Man in the Bottle Trim.mp4`" type="video/mp4">
+</SlidevVideo>
+
+Source: [The Man in the Bottle (Twilight Zone, 1960)](https://en.wikipedia.org/wiki/The_Man_in_the_Bottle)
+
+<script setup>
+const base = import.meta.env.BASE_URL
+</script>
 
 ---
 layout: section

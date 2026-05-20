@@ -10,7 +10,7 @@ transition: slide-left
 Vibe Coding Workshop · 5 Days
 
 ---
-src: ./slides/toc.md
+src: ./slides/intro.md
 ---
 
 ---
