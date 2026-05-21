@@ -46,7 +46,14 @@
 - 12:10 - 12:25 Prompt without a Computer
   - The resulting text should be precise and complete enough for someone to understand the game and play it, without any prior knowledge. This is to get a feeling for what precise and complete means.
   - We will give you 5 minutes for this, please use the time wisely.
-
 - 12:25 - 12:45 Understanding AI (a bit better)
   - We will talk about the most important terms and concepts around LLMs, so that you can understand the tools you are using a bit better. This is not a technical deep dive, but more of a practical overview.
   - Video *The Man in the Bottle* why do you think I showed you this video? What does it have to do with vibe coding?
+  - LLMs – without knowing what they actually are I'm sure you've come in contact with one of them, you've been using them, probably daily and and got a feeling what they can be used for and what they can't.
+  - LLMs Strengths and Struggles - name them yourself, you know that!
+  - How knows what a context window of an LLM is? How has a feeling about it?
+  - Three More Things
+    - Hallucinations: how can we avoid them when it comes to coding?
+    - Model differences: who experienced model differences at first hand?
+    - Tokens and costs: We will see how differently prices models are and when to use which model.
+  - 

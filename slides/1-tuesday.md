@@ -6,168 +6,10 @@ layout: section
 ## Basics & Tools
 
 ---
-layout: center
----
-
-<SlidevVideo v-click autoplay controls>
-  <source :src="`${$base}Exact Instructions Challenge Trim.mp4`" type="video/mp4">
-</SlidevVideo>
-
-Source: [Josh Darnit: Exact Instructions Challenge (2017)](https://www.youtube.com/watch?v=cDA3_5982h8)
-
-
----
 layout: section
 ---
 
-# Exercise: <br> Prompt Without a Computer
-
----
-layout: center
----
-
-# Pen & Paper
-
-No screens.
-
-Describe the game of **Tic Tac Toe**
-without using the words <br/>
-"Tic Tac Toe", "three", "row", or "line".
-
-> Goal: feel what *precise and complete* means
-
-<Countdown :minutes="5" :autostart="false" />
-
-
----
-layout: section
----
-
-# Part I: <br> Understanding AI (a bit better)
-
----
-
-# Prompting for Coding Agents
-
-<v-clicks>
-
-- **Context before task** — what's the project, what exists, what's the goal. Then the ask.
-- **Name your frameworks** — "use Tailwind", "vanilla JS" — specificity kills ambiguity
-- **Show, don't just tell** — screenshot or URL beats a paragraph
-- **One main task, 2–3 constraints** — not too vague, not 10 requirements at once
-- **Describe the result, not the path** — "clicking the button changes the color"
-- **Explicit negatives** — "no external libs", "don't touch the CSS", "no new files"
-
-</v-clicks>
-
----
-layout: center
----
-
-<SlidevVideo v-click autoplay controls>
-  <source :src="`${$base}The Man in the Bottle Trim.mp4`" type="video/mp4">
-</SlidevVideo>
-
-Source: [The Man in the Bottle (Twilight Zone, 1960)](https://en.wikipedia.org/wiki/The_Man_in_the_Bottle)
-
----
-layout: center
----
-
-# What are LLMs actually good at?
-
-*Let's check before we assume.*
-
----
-layout: two-cols
----
-
-# LLMs: Strengths
-
-<v-clicks>
-
-- Boilerplate & standard patterns
-- Explaining and commenting code
-- Generating variants
-- Debugging *with* an error message
-- Rephrasing & translating
-
-</v-clicks>
-
-::right::
-
-# LLMs: Struggles
-
-<v-clicks>
-
-- Logic across many steps
-- Counting, math, exact quotes
-- Spotting their own mistakes
-- Tracking large codebases
-- Anything after training cutoff
-
-</v-clicks>
-
-<!--
-Let them name some before revealing. Ask the room first.
-
--->
-
----
-layout: center
----
-
-# The Context Window
-
-> The AI's short-term memory for one session.
-
-<v-clicks>
-
-**What's inside:**
-System prompt · conversation history · open files · error messages · tool results
-
-**Why it matters:**
-Full or noisy → quality drops. New session = clean slate.
-
-**Rule of thumb:**
-Short sessions. Targeted context. Don't cram everything in.
-
-</v-clicks>
-
----
-
-# Three More Things
-
-<v-clicks>
-
-## Hallucinations
-The model invents facts confidently. Test everything. Never trust blindly.
-
-## Model differences
-Not all LLMs are equal — context size, capabilities, and costs vary.
-
-## Tokens & costs
-Tokens are the unit of work. Relevant for rate limits and API pricing.
-
-</v-clicks>
-
----
-
-# What is Vibe Coding?
-
-<v-click>
-
-> There's a new kind of coding I call "vibe coding", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper so I barely even touch the keyboard. I ask for the dumbest things like "decrease the padding on the sidebar by half" because I'm too lazy to find it. I "Accept All" always, I don't read the diffs anymore. When I get error messages I just copy paste them in with no comment, usually that fixes it. The code grows beyond my usual comprehension, I'd have to really read through it for a while. Sometimes the LLMs can't fix a bug so I just work around it or ask for random changes until it goes away. It's not too bad for throwaway weekend projects, but still quite amusing. I'm building a project or webapp, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works.
-
-*Andrej Karpathy / @karpathy / 3. Feb. 2025*
-
-</v-click>
-
----
-layout: section
----
-
-# Part II: Understanding Code
+# Part I: Basics of Coding
 
 ---
 layout: center
@@ -184,7 +26,6 @@ layout: center
 
 # Markup Language
 
-
 <v-clicks>
 
 *e.g. HTML (HyperText Markup Language)*
@@ -195,10 +36,15 @@ Describes structure and content.\
 Not a program. No logic. Just: **"what is what."**
 
 **Other common markup languages:**
-- XML — data storage and transfer
 - Markdown — lightweight formatting for text
 - YAML — config files and data serialization
+- XML — data storage and transfer
 </v-clicks>
+
+<!--
+- Markup languages are not programming languages because they don't have logic or control flow. They are just a way to describe the structure and content of a document or data. They are often used in conjunction with programming languages, but they serve a different purpose.
+- That is ont the other hand not true, in HTML you can have JavaScript embedded, and in XML you can have XSLT which is a programming language. But the point is that the markup itself is not a programming language, it's just a way to describe data.
+ -->
 
 ---
 layout: center
@@ -210,10 +56,14 @@ layout: center
 
 *e.g. JavaScript, Python*
 
-Instructions that execute at runtime.
+Instructions that execute at runtime.\
 Runs as-is — no build step needed.
 
 *Why "scripting"?* Historically, they were for automating tasks (scripts) rather than building full applications. Now the line is blurry.
+
+<!--
+- What is a build step? It's a process that transforms source code into a form that can be executed. For compiled languages, this is the compilation step.
+ -->
 
 </v-clicks>
 
@@ -234,6 +84,10 @@ Often faster and more powerful, but less flexible for quick changes.
 
 </v-clicks>
 
+<!--
+For vibe coding, scripting languages are often more convenient because they allow for faster iteration without the overhead of a build step. However, programming languages can be used in a vibe coding style as well, especially with modern tools that have fast compilation or hot reloading. Errors in programming languages can be more disruptive because they might prevent the code from running at all, whereas scripting languages might allow you to run parts of the code and fix errors on the fly. This is something to keep in mind when choosing your tools for vibe coding.
+ -->
+
 ---
 layout: center
 ---
@@ -246,6 +100,10 @@ layout: center
 - **Backend** — runs on a server. Invisible. Handles logic, data, auth.
 
 *Biggest mistakes in Vibe Coding: exposing secrets in frontend code, hardcoding credentials, not validating user input on the backend.*
+
+<!--
+- The frontend is what the user interacts with directly, while the backend is where the main logic and data handling happens. In vibe coding, it's important to be mindful of what code runs where, especially since LLMs might not always understand the security implications of putting certain code in the frontend. Always double-check for things like API keys or sensitive logic that should not be exposed to the client.
+ -->
 
 </v-click>
 
@@ -264,6 +122,10 @@ layout: center
 `npm install x` → done.\
 `pip install x` → done.
 
+<!--
+- A library is like a toolbox: you pick the tools you need. A framework is like a blueprint: you build your house according to its design. A package is like a delivery service: it gets the tools or blueprint to you in a way that's easy to use.
+ -->
+
 </v-click>
 
 ---
@@ -281,6 +143,10 @@ A defined interface between two systems, for example the frontend and backend, o
 Data goes in, data comes out. The API defines the format and rules for that exchange.
 
 Today most APIs are HTTP-based, where you send a request to a URL and get JSON back. But the concept is broader than that.
+
+<!--
+- APIs are how different parts of a system communicate with each other. They can be internal (between your frontend and backend) or external (between your code and a third-party service). Understanding APIs is crucial for vibe coding, as you'll often be working with them to integrate different services or to structure your own code.
+ -->
 
 </v-click>
 
@@ -334,6 +200,11 @@ A lightweight data format that's easy for humans to read and write, and easy for
 
 </v-click>
 
+<!--
+- JSON is a common format for APIs to send and receive data. It's important to understand how to read and write JSON, as you'll often be working with it when integrating different services or structuring your own data. In vibe coding, you might ask the LLM to generate JSON for you, or to parse JSON from an API response, so being familiar with its structure is key.
+ -->
+
+
 ---
 layout: two-cols
 ---
@@ -355,8 +226,199 @@ A system for tracking changes to code over time. It allows multiple people to co
 
 <v-click>
 
-
 <img :src="`${$base}git.svg`" />
+
+</v-click>
+
+<!--
+- Version control is essential for any coding project, especially when working with others. It allows you to keep track of changes, revert to previous versions if something breaks, and collaborate without overwriting each other's work. In vibe coding, using version control can help you manage the rapid changes and iterations that come with working with LLMs, and it can also serve as a safety net when things go wrong.
+ -->
+
+---
+layout: center
+---
+
+# Short Break
+
+[motivational tagline here]
+
+<Countdown :minutes="10" :autostart="true" />
+
+---
+layout: center
+---
+
+<SlidevVideo v-click autoplay controls>
+  <source :src="`${$base}Exact Instructions Challenge Trim.mp4`" type="video/mp4">
+</SlidevVideo>
+
+Source: [Josh Darnit: Exact Instructions Challenge (2017)](https://www.youtube.com/watch?v=cDA3_5982h8)
+
+<!--
+- The challenge is a great example of how important it is to be precise and complete when giving instructions, especially to an AI. If you leave out important details or are ambiguous, the results can be very different from what you intended. This is a key lesson for coding with AI, where the model will do exactly what you ask, but if your prompt is not clear, you might get unexpected results.
+ -->
+
+---
+layout: section
+---
+
+# Exercise: <br> Prompt Without a Computer
+
+---
+layout: center
+---
+
+# Pen & Paper
+
+No screens.
+
+Describe the game of **Tic Tac Toe**
+without using the words <br/>
+"Tic Tac Toe", "three", "row", or "line".
+
+> Goal: feel what *precise and complete* means
+
+<Countdown :minutes="5" :autostart="false" />
+
+<!--
+- The resulting text should be precise and complete enough for someone to understand the game and play it, without any prior knowledge. This is to get a feeling for what precise and complete means.
+- We will give you 5 minutes for this, please use the time wisely.
+ -->
+
+---
+layout: section
+---
+
+# Part II: <br> Understanding AI (a bit better)
+
+<!--
+- We will talk about the most important terms and concepts around LLMs, so that you can understand the tools you are using a bit better. This is not a technical deep dive, but more of a practical overview.
+ -->
+
+---
+layout: center
+---
+
+<SlidevVideo v-click autoplay controls>
+  <source :src="`${$base}The Man in the Bottle Trim.mp4`" type="video/mp4">
+</SlidevVideo>
+
+Source: [The Man in the Bottle (Twilight Zone, 1960)](https://en.wikipedia.org/wiki/The_Man_in_the_Bottle)
+
+---
+layout: center
+---
+
+# What are LLMs actually good at?
+
+*Let's check before we assume.*
+
+---
+layout: two-cols
+---
+
+# LLMs: Strengths
+
+<v-clicks>
+
+- Boilerplate & standard patterns
+- Explaining and commenting code
+- Generating variants
+- Debugging *with* an error message
+- Rephrasing & translating
+
+</v-clicks>
+
+::right::
+
+# LLMs: Struggles
+
+<v-clicks>
+
+- Logic across many steps
+- Counting, math, exact quotes
+- Spotting their own mistakes
+- Tracking large codebases
+- Anything after training cutoff
+
+</v-clicks>
+
+<!--
+Let them name some before revealing. Ask the room first.
+-->
+
+---
+layout: center
+---
+
+# The Context Window
+
+<v-clicks>
+
+> The AI's short-term memory for one session.
+
+**What's inside:**
+System prompt · conversation history · open files · error messages · tool results
+
+**Why it matters:**
+Full or noisy → quality drops. New session = clean slate.
+
+**Rule of thumb:**
+Short sessions. Targeted context. Don't cram everything in.
+
+</v-clicks>
+
+<!--
+- The context window is the amount of information the LLM can keep in its "short-term memory" during a session. It includes the system prompt, the conversation history, any open files, error messages, and results from tools. If the context window is full or contains too much irrelevant information, the quality of the LLM's responses can drop significantly. This is why it's important to keep sessions short and provide targeted context that is relevant to the task at hand.
+ -->
+
+---
+
+# Three More Things
+
+<v-clicks>
+
+## Hallucinations
+The model invents facts confidently. Test everything. Never trust blindly.
+
+## Model differences
+Not all LLMs are equal — context size, capabilities, and costs vary.
+
+## Tokens & costs
+Tokens are the unit of work. Relevant for rate limits and API pricing.
+
+</v-clicks>
+
+<!--
+- Hallucinations: how can we avoid them when it comes to coding?
+- Model differences: who experienced model differences at first hand?
+- Tokens and costs: We will see how differently prices models are and when to use which model.
+ -->
+
+---
+
+# Prompting for Coding Agents
+
+<v-clicks>
+
+- **Context before task** — what's the project, what exists, what's the goal. Then the ask.
+- **Name your frameworks** — "use Tailwind", "vanilla JS" — specificity kills ambiguity
+- **Show, don't just tell** — screenshot or URL beats a paragraph
+- **One main task, 2–3 constraints** — not too vague, not 10 requirements at once
+- **Describe the result, not the path** — "clicking the button changes the color"
+- **Explicit negatives** — "no external libs", "don't touch the CSS", "no new files"
+
+</v-clicks>
+
+---
+
+# What is Vibe Coding?
+
+<v-click>
+
+There's a new kind of coding I call "vibe coding", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper so I barely even touch the keyboard. I ask for the dumbest things like "decrease the padding on the sidebar by half" because I'm too lazy to find it. I "Accept All" always, I don't read the diffs anymore. When I get error messages I just copy paste them in with no comment, usually that fixes it. The code grows beyond my usual comprehension, I'd have to really read through it for a while. Sometimes the LLMs can't fix a bug so I just work around it or ask for random changes until it goes away. It's not too bad for throwaway weekend projects, but still quite amusing. I'm building a project or webapp, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works.
+
+*Andrej Karpathy / @karpathy / 3. Feb. 2025*
 
 </v-click>
 
@@ -414,6 +476,10 @@ python file.py   # run a Python script
 
 </v-click>
 
+<!--
+- Most important is the meaning of charaters like spaces, dots, and slashes. For example, `cd ..` means "go up one level" because `..` refers to the parent directory. The `ls` command lists the contents of the current directory, and `node file.js` or `python file.py` runs a script with the respective runtime. The shortcuts can save you a lot of time, especially when navigating through directories or recalling previous commands.
+ -->
+
 ---
 
 # Version Control
@@ -435,6 +501,12 @@ python file.py   # run a Python script
 In VS Code: Source Control panel → stage → commit message → push.
 
 </v-click>
+
+<!--
+- Git can be confusing at first, because it changes the way you know your files. Branching and merging can be especially tricky, because you have to understand the concept of parallel timelines and how changes from different branches can conflict with each other. The key is to practice and not be afraid of making mistakes, because Git allows you to revert changes and learn from them.
+ -->
+
+-->
 
 ---
 layout: section
