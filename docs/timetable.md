@@ -49,3 +49,4 @@
 
 - 12:25 - 12:45 Understanding AI (a bit better)
   - We will talk about the most important terms and concepts around LLMs, so that you can understand the tools you are using a bit better. This is not a technical deep dive, but more of a practical overview.
+  - Video *The Man in the Bottle* why do you think I showed you this video? What does it have to do with vibe coding?

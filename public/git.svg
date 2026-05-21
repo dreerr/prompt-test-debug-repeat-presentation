@@ -1,0 +1,199 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg" width="593.59375" height="713.40625">
+  <g transform="translate(10, 10)">
+    <g>
+      <path d="M 0 640 C 0 600 0 600 0 560 L 0 480 L 0 400 L 0 320 L 0 240 C 0 200 0 200 0 160" fill="none" stroke="#009DDC" stroke-width="10px" transform="translate(14, 14)"></path>
+      <path d="M 0 640 C 0 600 50 600 50 560 L 50 480 L 50 400 L 50 320 L 50 240 L 50 160 L 50 80 C 50 40 50 40 50 0" fill="none" stroke="#2C6B72" stroke-width="10px" transform="translate(14, 14)"></path>
+      <path d="M 50 560 C 50 520 100 520 100 480 C 100 440 50 440 50 400 M 100 480 C 100 440 100 440 100 400 L 100 320 L 100 240 L 100 160 C 100 120 100 120 100 80" fill="none" stroke="#EF8354" stroke-width="10px" transform="translate(14, 14)"></path>
+      <path d="M 0 640 C 0 600 150 600 150 560 L 150 480 L 150 400 L 150 320 L 150 240 C 150 200 0 200 0 160" fill="none" stroke="#F2DC5D" stroke-width="10px" transform="translate(14, 14)"></path>
+    </g>
+    <g>
+      <g transform="translate(0, 640)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="b88888e67c6d77fd1aa0369df48ce477f626593d" fill="#009DDC"></circle>
+            <clipPath id="clip-b88888e67c6d77fd1aa0369df48ce477f626593d">
+              <use href="#b88888e67c6d77fd1aa0369df48ce477f626593d" xlink:href="#b88888e67c6d77fd1aa0369df48ce477f626593d"></use>
+            </clipPath>
+            <circle cx="14" cy="14" r="14" id="b88888e67c6d77fd1aa0369df48ce477f626593d" fill="#009DDC"></circle>
+            <circle cx="14" cy="14" r="14" id="b88888e67c6d77fd1aa0369df48ce477f626593d" fill="#009DDC"></circle>
+            <circle cx="14" cy="14" r="14" id="42fef7de9019d4cca19e132284119c244f04ed39" fill="#2C6B72"></circle>
+            <circle cx="14" cy="14" r="14" id="42fef7de9019d4cca19e132284119c244f04ed39" fill="#2C6B72"></circle>
+            <circle cx="14" cy="14" r="14" id="348184bb5a0dabfabce481fe3040095e77f8007c" fill="#EF8354"></circle>
+            <circle cx="14" cy="14" r="14" id="348184bb5a0dabfabce481fe3040095e77f8007c" fill="#EF8354"></circle>
+            <circle cx="14" cy="14" r="14" id="13147e4652bfb756bd4877f1f2d660ad20e18ab0" fill="#2C6B72"></circle>
+            <circle cx="14" cy="14" r="14" id="13147e4652bfb756bd4877f1f2d660ad20e18ab0" fill="#2C6B72"></circle>
+            <circle cx="14" cy="14" r="14" id="232bb6b6980e736217b5f13561b080ca4067129e" fill="#2C6B72"></circle>
+            <circle cx="14" cy="14" r="14" id="232bb6b6980e736217b5f13561b080ca4067129e" fill="#2C6B72"></circle>
+            <circle cx="14" cy="14" r="14" id="9dc5b375e6922f8ac586c1c4f98d48978bc9dbac" fill="#F2DC5D"></circle>
+            <circle cx="14" cy="14" r="14" id="9dc5b375e6922f8ac586c1c4f98d48978bc9dbac" fill="#F2DC5D"></circle>
+            <circle cx="14" cy="14" r="14" id="2419fe0c76a966166d33423d9d061dbe185ebf11" fill="#009DDC"></circle>
+            <circle cx="14" cy="14" r="14" id="2419fe0c76a966166d33423d9d061dbe185ebf11" fill="#009DDC"></circle>
+            <circle cx="14" cy="14" r="14" id="7d3dc6be545b0aa0d1911e211c1d0ccb5ff587aa" fill="#EF8354"></circle>
+            <circle cx="14" cy="14" r="14" id="7d3dc6be545b0aa0d1911e211c1d0ccb5ff587aa" fill="#EF8354"></circle>
+            <circle cx="14" cy="14" r="14" id="7fb6c06c1428b640a5231daf029e5196d9a3a0a3" fill="#2C6B72"></circle>
+            <circle cx="14" cy="14" r="14" id="7fb6c06c1428b640a5231daf029e5196d9a3a0a3" fill="#2C6B72"></circle>
+          </defs>
+          <use href="#b88888e67c6d77fd1aa0369df48ce477f626593d" xlink:href="#b88888e67c6d77fd1aa0369df48ce477f626593d" clip-path="url(#clip-b88888e67c6d77fd1aa0369df48ce477f626593d)" stroke="" stroke-width="0px"></use>
+        </g>
+        <g transform="translate(0, 0)">
+          <g transform="translate(200, 14)">
+            <text alignment-baseline="central" dominant-baseline="central" fill="#009DDC" style="font: normal 14pt Arial">Initial commit</text>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(50, 560)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="42fef7de9019d4cca19e132284119c244f04ed39" fill="#2C6B72"></circle>
+            <clipPath id="clip-42fef7de9019d4cca19e132284119c244f04ed39">
+              <use href="#42fef7de9019d4cca19e132284119c244f04ed39" xlink:href="#42fef7de9019d4cca19e132284119c244f04ed39"></use>
+            </clipPath>
+          </defs>
+          <use href="#42fef7de9019d4cca19e132284119c244f04ed39" xlink:href="#42fef7de9019d4cca19e132284119c244f04ed39" clip-path="url(#clip-42fef7de9019d4cca19e132284119c244f04ed39)" stroke="" stroke-width="0px"></use>
+        </g>
+        <g transform="translate(-50, 0)">
+          <g transform="translate(200, 14)">
+            <text alignment-baseline="central" dominant-baseline="central" fill="#2C6B72" style="font: normal 14pt Arial">Write talk</text>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(100, 480)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="348184bb5a0dabfabce481fe3040095e77f8007c" fill="#EF8354"></circle>
+            <clipPath id="clip-348184bb5a0dabfabce481fe3040095e77f8007c">
+              <use href="#348184bb5a0dabfabce481fe3040095e77f8007c" xlink:href="#348184bb5a0dabfabce481fe3040095e77f8007c"></use>
+            </clipPath>
+          </defs>
+          <use href="#348184bb5a0dabfabce481fe3040095e77f8007c" xlink:href="#348184bb5a0dabfabce481fe3040095e77f8007c" clip-path="url(#clip-348184bb5a0dabfabce481fe3040095e77f8007c)" stroke="" stroke-width="0px"></use>
+        </g>
+        <g transform="translate(-100, 0)">
+          <g transform="translate(200, 14)">
+            <text alignment-baseline="central" dominant-baseline="central" fill="#EF8354" style="font: normal 14pt Arial">Fix typos</text>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(50, 400)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="13147e4652bfb756bd4877f1f2d660ad20e18ab0" fill="#2C6B72"></circle>
+            <clipPath id="clip-13147e4652bfb756bd4877f1f2d660ad20e18ab0">
+              <use href="#13147e4652bfb756bd4877f1f2d660ad20e18ab0" xlink:href="#13147e4652bfb756bd4877f1f2d660ad20e18ab0"></use>
+            </clipPath>
+          </defs>
+          <use href="#13147e4652bfb756bd4877f1f2d660ad20e18ab0" xlink:href="#13147e4652bfb756bd4877f1f2d660ad20e18ab0" clip-path="url(#clip-13147e4652bfb756bd4877f1f2d660ad20e18ab0)" stroke="" stroke-width="0px"></use>
+        </g>
+        <g transform="translate(-50, 0)">
+          <g transform="translate(200, 14)">
+            <text alignment-baseline="central" dominant-baseline="central" fill="#2C6B72" style="font: normal 14pt Arial">Merge branch feature/git-article</text>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(50, 320)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="232bb6b6980e736217b5f13561b080ca4067129e" fill="#2C6B72"></circle>
+            <clipPath id="clip-232bb6b6980e736217b5f13561b080ca4067129e">
+              <use href="#232bb6b6980e736217b5f13561b080ca4067129e" xlink:href="#232bb6b6980e736217b5f13561b080ca4067129e"></use>
+            </clipPath>
+          </defs>
+          <use href="#232bb6b6980e736217b5f13561b080ca4067129e" xlink:href="#232bb6b6980e736217b5f13561b080ca4067129e" clip-path="url(#clip-232bb6b6980e736217b5f13561b080ca4067129e)" stroke="" stroke-width="0px"></use>
+        </g>
+        <g transform="translate(-50, 0)">
+          <g transform="translate(200, 14)">
+            <text alignment-baseline="central" dominant-baseline="central" fill="#2C6B72" style="font: normal 14pt Arial">Create presentation</text>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(150, 240)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="9dc5b375e6922f8ac586c1c4f98d48978bc9dbac" fill="#F2DC5D"></circle>
+            <clipPath id="clip-9dc5b375e6922f8ac586c1c4f98d48978bc9dbac">
+              <use href="#9dc5b375e6922f8ac586c1c4f98d48978bc9dbac" xlink:href="#9dc5b375e6922f8ac586c1c4f98d48978bc9dbac"></use>
+            </clipPath>
+          </defs>
+          <use href="#9dc5b375e6922f8ac586c1c4f98d48978bc9dbac" xlink:href="#9dc5b375e6922f8ac586c1c4f98d48978bc9dbac" clip-path="url(#clip-9dc5b375e6922f8ac586c1c4f98d48978bc9dbac)" stroke="" stroke-width="0px"></use>
+        </g>
+        <g transform="translate(-150, 0)">
+          <g transform="translate(392.9375, 14)">
+            <text alignment-baseline="central" dominant-baseline="central" fill="#F2DC5D" style="font: normal 14pt Arial">Write another talk</text>
+          </g>
+          <g transform="translate(200, 0)">
+            <g>
+              <rect width="182.9375" height="30.8125" rx="10" fill="transparent" stroke="#F2DC5D"></rect>
+              <text alignment-baseline="central" dominant-baseline="central" fill="#F2DC5D" style="font: normal 14pt Arial" x="10" y="15.40625">feature/another-talk</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(0, 160)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="2419fe0c76a966166d33423d9d061dbe185ebf11" fill="#009DDC"></circle>
+            <clipPath id="clip-2419fe0c76a966166d33423d9d061dbe185ebf11">
+              <use href="#2419fe0c76a966166d33423d9d061dbe185ebf11" xlink:href="#2419fe0c76a966166d33423d9d061dbe185ebf11"></use>
+            </clipPath>
+          </defs>
+          <use href="#2419fe0c76a966166d33423d9d061dbe185ebf11" xlink:href="#2419fe0c76a966166d33423d9d061dbe185ebf11" clip-path="url(#clip-2419fe0c76a966166d33423d9d061dbe185ebf11)" stroke="" stroke-width="0px"></use>
+        </g>
+        <g transform="translate(0, 0)">
+          <g transform="translate(270.46875, 14)">
+            <text alignment-baseline="central" dominant-baseline="central" fill="#009DDC" style="font: normal 14pt Arial">Merge branch feature/another-talk</text>
+          </g>
+          <g transform="translate(200, 0)">
+            <g>
+              <rect width="60.46875" height="30.8125" rx="10" fill="transparent" stroke="#009DDC"></rect>
+              <text alignment-baseline="central" dominant-baseline="central" fill="#009DDC" style="font: normal 14pt Arial" x="10" y="15.40625">main</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(100, 80)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="7d3dc6be545b0aa0d1911e211c1d0ccb5ff587aa" fill="#EF8354"></circle>
+            <clipPath id="clip-7d3dc6be545b0aa0d1911e211c1d0ccb5ff587aa">
+              <use href="#7d3dc6be545b0aa0d1911e211c1d0ccb5ff587aa" xlink:href="#7d3dc6be545b0aa0d1911e211c1d0ccb5ff587aa"></use>
+            </clipPath>
+          </defs>
+          <use href="#7d3dc6be545b0aa0d1911e211c1d0ccb5ff587aa" xlink:href="#7d3dc6be545b0aa0d1911e211c1d0ccb5ff587aa" clip-path="url(#clip-7d3dc6be545b0aa0d1911e211c1d0ccb5ff587aa)" stroke="" stroke-width="0px"></use>
+        </g>
+        <g transform="translate(-100, 0)">
+          <g transform="translate(369.84375, 14)">
+            <text alignment-baseline="central" dominant-baseline="central" fill="#EF8354" style="font: normal 14pt Arial">Rewrite talk as blog post</text>
+          </g>
+          <g transform="translate(200, 0)">
+            <g>
+              <rect width="159.84375" height="30.8125" rx="10" fill="transparent" stroke="#EF8354"></rect>
+              <text alignment-baseline="central" dominant-baseline="central" fill="#EF8354" style="font: normal 14pt Arial" x="10" y="15.40625">feature/git-article</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(50, 0)">
+        <g>
+          <defs>
+            <circle cx="14" cy="14" r="14" id="7fb6c06c1428b640a5231daf029e5196d9a3a0a3" fill="#2C6B72"></circle>
+            <clipPath id="clip-7fb6c06c1428b640a5231daf029e5196d9a3a0a3">
+              <use href="#7fb6c06c1428b640a5231daf029e5196d9a3a0a3" xlink:href="#7fb6c06c1428b640a5231daf029e5196d9a3a0a3"></use>
+            </clipPath>
+          </defs>
+          <use href="#7fb6c06c1428b640a5231daf029e5196d9a3a0a3" xlink:href="#7fb6c06c1428b640a5231daf029e5196d9a3a0a3" clip-path="url(#clip-7fb6c06c1428b640a5231daf029e5196d9a3a0a3)" stroke="" stroke-width="0px"></use>
+        </g>
+        <g transform="translate(-50, 0)">
+          <g transform="translate(349.34375, 14)">
+            <text alignment-baseline="central" dominant-baseline="central" fill="#2C6B72" style="font: normal 14pt Arial">Reorder slides</text>
+          </g>
+          <g transform="translate(200, 0)">
+            <g>
+              <rect width="139.34375" height="30.8125" rx="10" fill="transparent" stroke="#2C6B72"></rect>
+              <text alignment-baseline="central" dominant-baseline="central" fill="#2C6B72" style="font: normal 14pt Arial" x="10" y="15.40625">feature/git-talk</text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

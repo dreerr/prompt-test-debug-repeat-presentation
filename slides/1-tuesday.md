@@ -10,14 +10,10 @@ layout: center
 ---
 
 <SlidevVideo v-click autoplay controls>
-  <source :src="`${base}Exact Instructions Challenge Trim.mp4`" type="video/mp4">
+  <source :src="`${$base}Exact Instructions Challenge Trim.mp4`" type="video/mp4">
 </SlidevVideo>
 
 Source: [Josh Darnit: Exact Instructions Challenge (2017)](https://www.youtube.com/watch?v=cDA3_5982h8)
-
-<script setup>
-const base = import.meta.env.BASE_URL
-</script>
 
 
 ---
@@ -69,14 +65,10 @@ layout: center
 ---
 
 <SlidevVideo v-click autoplay controls>
-  <source :src="`${base}The Man in the Bottle Trim.mp4`" type="video/mp4">
+  <source :src="`${$base}The Man in the Bottle Trim.mp4`" type="video/mp4">
 </SlidevVideo>
 
 Source: [The Man in the Bottle (Twilight Zone, 1960)](https://en.wikipedia.org/wiki/The_Man_in_the_Bottle)
-
-<script setup>
-const base = import.meta.env.BASE_URL
-</script>
 
 ---
 layout: center
@@ -118,6 +110,7 @@ layout: two-cols
 
 <!--
 Let them name some before revealing. Ask the room first.
+
 -->
 
 ---
@@ -147,16 +140,28 @@ Short sessions. Targeted context. Don't cram everything in.
 
 <v-clicks>
 
-**Hallucinations**
+## Hallucinations
 The model invents facts confidently. Test everything. Never trust blindly.
 
-**Model differences**
+## Model differences
 Not all LLMs are equal — context size, capabilities, and costs vary.
 
-**Tokens & costs**
+## Tokens & costs
 Tokens are the unit of work. Relevant for rate limits and API pricing.
 
 </v-clicks>
+
+---
+
+# What is Vibe Coding?
+
+<v-click>
+
+> There's a new kind of coding I call "vibe coding", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper so I barely even touch the keyboard. I ask for the dumbest things like "decrease the padding on the sidebar by half" because I'm too lazy to find it. I "Accept All" always, I don't read the diffs anymore. When I get error messages I just copy paste them in with no comment, usually that fixes it. The code grows beyond my usual comprehension, I'd have to really read through it for a while. Sometimes the LLMs can't fix a bug so I just work around it or ask for random changes until it goes away. It's not too bad for throwaway weekend projects, but still quite amusing. I'm building a project or webapp, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works.
+
+*Andrej Karpathy / @karpathy / 3. Feb. 2025*
+
+</v-click>
 
 ---
 layout: section
@@ -177,16 +182,23 @@ You tell me what it is.
 layout: center
 ---
 
-# Markup
+# Markup Language
 
-*e.g. HTML*
 
-<v-click>
+<v-clicks>
 
-Describes structure and content.
+*e.g. HTML (HyperText Markup Language)*
+
+> The word *markup* is derived from the traditional publishing practice of *marking up* a manuscript
+
+Describes structure and content.\
 Not a program. No logic. Just: **"what is what."**
 
-</v-click>
+**Other common markup languages:**
+- XML — data storage and transfer
+- Markdown — lightweight formatting for text
+- YAML — config files and data serialization
+</v-clicks>
 
 ---
 layout: center
@@ -194,12 +206,46 @@ layout: center
 
 # Scripting Language
 
-*e.g. JavaScript, Python*
+<v-clicks>
 
-<v-click>
+*e.g. JavaScript, Python*
 
 Instructions that execute at runtime.
 Runs as-is — no build step needed.
+
+*Why "scripting"?* Historically, they were for automating tasks (scripts) rather than building full applications. Now the line is blurry.
+
+</v-clicks>
+
+---
+layout: center
+---
+
+# Programming Language
+
+<v-clicks>
+
+*e.g. Java, C++*
+
+Requires a build step (compilation) to run.\
+Often faster and more powerful, but less flexible for quick changes.
+
+*Why "programming"?* They were designed for building complex software (programs) rather than automating tasks. Again, the line is blurry.
+
+</v-clicks>
+
+---
+layout: center
+---
+
+# Frontend / Backend
+
+<v-click>
+
+- **Frontend** — runs in the browser. Visible.
+- **Backend** — runs on a server. Invisible. Handles logic, data, auth.
+
+*Biggest mistakes in Vibe Coding: exposing secrets in frontend code, hardcoding credentials, not validating user input on the backend.*
 
 </v-click>
 
@@ -207,12 +253,16 @@ Runs as-is — no build step needed.
 layout: center
 ---
 
-# Frontend vs. Backend
+# Library / Package / Framework
 
 <v-click>
 
-**Frontend** — runs in the browser. Visible.
-**Backend** — runs on a server. Invisible. Handles logic, data, auth.
+- **Library** — ready-made code for a specific job.
+- **Framework** — a more complete structure for building an app, with rules and conventions.
+- **Package** — how that code gets distributed and installed.
+
+`npm install x` → done.\
+`pip install x` → done.
 
 </v-click>
 
@@ -224,9 +274,89 @@ layout: center
 
 <v-click>
 
-A defined interface between two systems.
+*API = Application Programming Interface*
 
-*"How do I talk to X?"*
+A defined interface between two systems, for example the frontend and backend, or your code and a third-party service.
+
+Data goes in, data comes out. The API defines the format and rules for that exchange.
+
+Today most APIs are HTTP-based, where you send a request to a URL and get JSON back. But the concept is broader than that.
+
+</v-click>
+
+---
+layout: two-cols
+---
+
+# JSON
+
+<v-click>
+
+*JSON = JavaScript Object Notation*
+
+A lightweight data format that's easy for humans to read and write, and easy for machines to parse.
+
+</v-click>
+
+::right::
+
+<v-click>
+
+```json
+{
+  "first_name": "John",
+  "last_name": "Smith",
+  "is_alive": true,
+  "age": 27,
+  "address": {
+    "street_address": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postal_code": "10021-3100"
+  },
+  "phone_numbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }
+  ],
+  "children": [
+    "Catherine",
+    "Thomas",
+    "Trevor"
+  ]
+}
+```
+
+</v-click>
+
+---
+layout: two-cols
+---
+
+# Version Control
+
+<v-click>
+
+A system for tracking changes to code over time. It allows multiple people to collaborate, keeps a history of edits, and helps manage different versions of a project.
+
+**Git** is the most popular version control system today. It uses a distributed model, where each developer has a full copy of the repository, and changes are shared via commits and pushes.
+
+**GitHub** is a platform built on top of Git that provides hosting for repositories, collaboration tools, and a web interface for managing code.
+
+*No more `_final_FINAL_wirklichFinal.html`*
+</v-click>
+
+::right::
+
+<v-click>
+
+
+<img :src="`${$base}git.svg`" />
 
 </v-click>
 
@@ -234,35 +364,17 @@ A defined interface between two systems.
 layout: center
 ---
 
-# Library vs. Package
+# Short Break
 
-<v-click>
+[motivational tagline here]
 
-**Library** — ready-made code for a specific job.
-**Package** — how that code gets distributed and installed.
-
-`npm install x` → done.
-
-</v-click>
+<Countdown :minutes="10" :autostart="true" />
 
 ---
+layout: section
+---
 
-# Paradigms to Recognize
-
-*(Not to memorize — just enough to follow along)*
-
-<v-clicks>
-
-- **Version Control** — Git. No more `_final_FINAL_wirklichFinal.html`.
-- **Package Management** — `npm install x` → x is available
-- **APIs** — weather app asks a server via HTTP, gets JSON back
-- **Type Safety** — `"5" + 5` in JS is `"55"`. Types matter.
-- **Compiled vs. Interpreted** — Python runs directly; C needs a build step
-- **Rendering Environments** — same JS, three contexts: browser, Node, terminal
-- **Data Formats** — JSON travels between systems; CSV is a text spreadsheet
-- **Environments** — `.env`, `package.json`, `requirements.txt` = "here's what you need"
-
-</v-clicks>
+# Hands-On: VS Code & Git
 
 ---
 
@@ -279,11 +391,6 @@ layout: center
 
 </v-clicks>
 
-<v-click>
-
-*First task: Install GitHub Copilot and connect your GitHub account.*
-
-</v-click>
 
 ---
 
