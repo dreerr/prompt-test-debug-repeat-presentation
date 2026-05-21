@@ -5,19 +5,26 @@ layout: section
 # Day 2: Wednesday
 ## Methods & Conception
 
+<!--
+Today we will explore more advanced methods for working with LLMs, including spec-driven development and agentic coding. We will also focus on the early stages of project conception, including writing a PRD and forming groups around project ideas.
+ -->
+
 ---
 
 # Morning: Guest Talks
 
-~15 min each + Q&A
+~15-30 min each + Q&A
 
 | Speaker | Topic |
 |---------|-------|
-| **Peter** | Spec-Driven Development — why spec before code |
+| **Philipp** | General overview of setup and workflow |
 | **Esad** | Advanced Agentic Coding — agents in practice |
-| **Julian & Jonas** | Examples from our own work |
 
-*Open Q&A after all three.*
+*Open Q&A after each talk*
+
+<!--
+
+ -->
 
 ---
 layout: section
@@ -105,10 +112,10 @@ layout: section
 
 <v-click>
 
-**Complexity check with the instructor:**  
+**Complexity check with the instructor:**
 Is this doable in 2–3 days?
 
-> If in doubt — scope down.  
+> If in doubt — scope down.
 > What's the smallest version that shows the idea?
 
 </v-click>

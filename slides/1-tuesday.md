@@ -522,10 +522,9 @@ layout: section
 
 <v-clicks>
 
-1. Chat vs. Inline Completion vs. Edits — when to use what?
-2. Agent Mode — what it can and can't do
+1. Agent vs. Ask vs. Plan — when to use what?
 3. Usage tokens — what costs what?
-4. **Build a simple HTML page together via Copilot**
+4. **Build a HTML page together via Copilot**
 
 </v-clicks>
 
