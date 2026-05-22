@@ -49,11 +49,9 @@ If the AI says you need a backend server, a database, an API key, Node.js, or us
 
 **7. Know when to start over.**
 If you've gone back and forth 5–6 times on the same problem and it's not improving, the conversation is broken. Start fresh:
-1. Copy out the code that works
+1. Copy out the code that works ## umformulieren
 2. Open a new conversation
 3. Give the AI: what you have (paste the code), what you're trying to add, what went wrong
-
-This is not failure. It's the fastest path forward.
 
 ---
 

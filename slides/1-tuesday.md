@@ -202,8 +202,7 @@ layout: center
 No screens.
 
 Describe the game of **Tic Tac Toe**
-without using the words <br/>
-"Tic Tac Toe", "three", "row", or "line".
+without using the words "Tic Tac Toe".
 
 > Goal: feel what *precise and complete* means
 
@@ -303,40 +302,10 @@ Short sessions. Targeted context. Don't cram everything in.
 
 ---
 
-# Three More Things
+# Agentic AI vs simple Chatbot
 
-<v-clicks>
+## WIP!!!
 
-## Hallucinations
-The model invents facts confidently. Test everything. Never trust blindly.
-
-## Model differences
-Not all LLMs are equal — context size, capabilities, and costs vary.
-
-## Tokens & costs
-Tokens are the unit of work. Relevant for rate limits and API pricing.
-
-</v-clicks>
-
-<!--
-- Hallucinations: how can we avoid them when it comes to coding?
-- Model differences: who experienced model differences at first hand?
-- Tokens and costs: We will see how differently prices models are and when to use which model.
- -->
-
----
-
-# Prompting for Coding Agents
-
-<v-clicks>
-
-- **Describe the result, not the path** — "clicking the button changes the color"
-- **Explicit negatives** — "don't touch the CSS", "no new files"
-- **Context before task** — what's the project, what exists, what's the goal. Then the ask.
-- **Show, don't just tell** — screenshot or URL beats a paragraph
-- **One main task, 2–3 constraints** — not too vague, not 10 requirements at once
-
-</v-clicks>
 
 ---
 layout: center

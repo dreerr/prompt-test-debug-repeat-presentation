@@ -1,4 +1,27 @@
 ---
+
+# Three More Things
+
+<v-clicks>
+
+## Hallucinations
+The model invents facts confidently. Test everything. Never trust blindly.
+
+## Model differences
+Not all LLMs are equal — context size, capabilities, and costs vary.
+
+## Tokens & costs
+Tokens are the unit of work. Relevant for rate limits and API pricing.
+
+</v-clicks>
+
+<!--
+- Hallucinations: how can we avoid them when it comes to coding?
+- Model differences: who experienced model differences at first hand?
+- Tokens and costs: We will see how differently prices models are and when to use which model.
+ -->
+
+---
 layout: center
 ---
 
@@ -104,3 +127,17 @@ There's a new kind of coding I call "vibe coding", where you fully give in to th
 *Andrej Karpathy / @karpathy / 3. Feb. 2025*
 
 </v-click>
+
+---
+
+# Prompting for Coding Agents
+
+<v-clicks>
+
+- **Describe the result, not the path** — "clicking the button changes the color"
+- **Explicit negatives** — "don't touch the CSS", "no new files"
+- **Context before task** — what's the project, what exists, what's the goal. Then the ask.
+- **Show, don't just tell** — screenshot or URL beats a paragraph
+- **One main task, 2–3 constraints** — not too vague, not 10 requirements at once
+
+</v-clicks>
