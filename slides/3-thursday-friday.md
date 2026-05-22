@@ -17,6 +17,60 @@ layout: section
 | End of day | Short team reflection |
 
 ---
+layout: section
+---
+
+# From Idea to Project
+
+---
+
+# PRD — Product Requirements Document
+
+*Write before you prompt.*
+
+<v-clicks>
+
+**Structure:**
+- **Goal** — what problem are we solving?
+- **Target audience** — who is it for?
+- **Features** — Must / Should / Could
+- **Non-goals** — what's explicitly out of scope
+
+</v-clicks>
+
+<v-click>
+
+**Exercise:** Write a 1-page mini-PRD for your project idea.
+
+</v-click>
+
+---
+
+# Spec-Driven Development
+
+> Clear spec → predictable output
+
+<v-clicks>
+
+**Acceptance Criteria:**
+
+"This feature is done when..."
+
+Concrete. Testable. No room for interpretation.
+
+</v-clicks>
+
+<v-click>
+
+**The Loop:**
+
+Spec → Prompt → Test → Commit *(or restart)*
+
+</v-click>
+
+
+
+---
 layout: center
 ---
 
@@ -60,7 +114,7 @@ Intervention only when:
 layout: quote
 ---
 
-"What's the smallest version  
+"What's the smallest version
 that shows the idea?"
 
 <!--

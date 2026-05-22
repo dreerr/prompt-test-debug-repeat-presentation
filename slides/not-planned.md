@@ -141,3 +141,21 @@ There's a new kind of coding I call "vibe coding", where you fully give in to th
 - **One main task, 2–3 constraints** — not too vague, not 10 requirements at once
 
 </v-clicks>
+
+---
+
+# More Copilot Practice
+
+<v-clicks>
+
+**When to use what:**
+- Chat — exploration, questions, explaining
+- Inline completion — in-flow suggestions
+- Agent Mode — bigger tasks with context
+
+**Common traps:**
+- Context too long → quality drops
+- Prompts too vague → unpredictable output
+- No spec → no way to know if it's done
+
+</v-clicks>
