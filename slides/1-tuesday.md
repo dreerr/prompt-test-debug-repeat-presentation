@@ -339,6 +339,69 @@ Tokens are the unit of work. Relevant for rate limits and API pricing.
 </v-clicks>
 
 ---
+layout: center
+---
+
+# The Working Framework
+
+You won't write code — you'll **describe, receive, test, and direct**.
+
+The AI will produce broken code, lose context, and add complexity you don't need.
+
+**Your job: stay in control.**
+
+<!--
+Frame this as a real professional skill: commissioning and managing technical work from a system you don't fully understand. Not just "using AI" — directing a process.
+-->
+
+---
+
+# The Rules
+
+<v-clicks>
+
+1. **One thing at a time** — one session, one working piece
+2. **Test immediately** — before asking for the next feature
+3. **Commit before you modify** — version control as a safety net
+4. **Describe symptoms, not theories** — "nothing happens when I click" not "the JS is broken"
+5. **Understand before you proceed** — if you can't explain it, ask first
+6. **Resist complexity** — "Can we do a simpler version without that?"
+7. **Know when to restart** — 5–6 failed fixes = start a fresh conversation
+
+</v-clicks>
+
+<!--
+Rules 4 and 7 are the hardest in practice.
+Rule 4: students describe what they *think* is wrong, which leads the AI down wrong paths. What you observe > what you theorise.
+Rule 7: restarting feels like failure — reframe it. Copy working code, open a new conversation, clean description. That's the fastest path forward.
+-->
+
+---
+layout: two-cols
+---
+
+# Scope: Now vs. Later
+
+**Must have now**
+
+- Core interaction works
+- One clear example of the idea
+- Someone can look at it and understand
+
+::right::
+
+**Add later**
+
+- Visual polish
+- Edge cases & variations
+- Mobile layout
+- Animations
+
+<!--
+Build "must have now" first. Get it working. Then add one thing from "later." Trying to build everything at once leads to finishing nothing.
+-->
+
+---
 
 # Exercise: Complexity Calibration
 
@@ -432,6 +495,54 @@ In VS Code: Source Control panel → stage → commit message → push.
 <!--
 - Git can be confusing at first, because it changes the way you know your files. Branching and merging can be especially tricky, because you have to understand the concept of parallel timelines and how changes from different branches can conflict with each other. The key is to practice and not be afraid of making mistakes, because Git allows you to revert changes and learn from them.
  -->
+
+---
+layout: center
+---
+
+# Your Most Useful Debugging Tool
+
+Right-click anywhere → **Inspect** → **Console** tab
+
+<v-click>
+
+Red text = error messages.
+
+You don't need to understand them — **copy and paste to the AI.**
+
+This solves most "it doesn't work" situations in one step.
+
+</v-click>
+
+<!--
+Demo this live. Open the console, trigger a visible error, copy the red text. Normalise error messages as useful information, not signs of failure. Students often try to describe errors from memory instead of copying them exactly.
+-->
+
+---
+
+# Warning Signs
+
+Stop and reconsider if:
+
+<v-clicks>
+
+- The AI keeps apologising ("I apologise for the confusion…")
+- Fixes undo previous fixes (fix A breaks B, fix B breaks A)
+- Explanations get longer and more complicated each message
+- The AI suggests a completely different approach with no explanation
+- You've been stuck on the same thing for more than 20 minutes
+
+</v-clicks>
+
+<v-click>
+
+→ Save what works. New conversation. Clean description.
+
+</v-click>
+
+<!--
+Any one of these warning signs means it's time to reset, not keep pushing. The instinct to push through usually makes things worse.
+-->
 
 ---
 layout: section

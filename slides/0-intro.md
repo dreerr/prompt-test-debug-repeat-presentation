@@ -46,6 +46,26 @@ layout: default
  -->
 
 ---
+layout: center
+---
+
+# What You'll Be Able to Do
+
+<v-clicks>
+
+- **Calibrate** — recognise what's an afternoon vs. a multi-week project
+- **Recover** — restart productively when stuck, rather than grinding
+- **Evaluate** — "does this do what I asked?" without reading every line
+- **Scope** — decide what to build now vs. what to defer
+- **Communicate** — describe what went wrong in terms that get results
+
+</v-clicks>
+
+<!--
+Set this as the goal for the week early. You won't be a programmer — you'll be someone who can direct the process and stay in control of it. Return to this slide at the end of the week.
+-->
+
+---
 addons:
     - slidev-addon-qrcode
 ---
