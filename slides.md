@@ -19,6 +19,9 @@ Vibe Coding Workshop · 5 Days
 - We will burn through a lot of tokens in the following days, keep that in mind. Most of the tokens we are using will be supplied free of charge, but the tokens themselves cost money and resources.
 - Be mindful about the things you do with the AI, not only in this course, be aware that even though you get a lot of things for free, they are in fact not. We are seeing this as we depend more on AI in our daily lives. The student plan for GitHub Copilot included flagship models up until March.
  -->
+---
+
+<Toc maxDepth="1" columns="3" listClass="text-sm" />
 
 ---
 src: ./slides/0-intro.md

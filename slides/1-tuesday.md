@@ -9,7 +9,7 @@ layout: section
 layout: section
 ---
 
-# Part I: Basics of Coding
+# Part I: Basic Coding Terms
 
 ---
 layout: center
@@ -19,74 +19,6 @@ layout: center
 
 I'll show you a term.
 You tell me what it is.
-
----
-layout: center
----
-
-# Markup Language
-
-<v-clicks>
-
-*e.g. HTML (HyperText Markup Language)*
-
-> The word *markup* is derived from the traditional publishing practice of *marking up* a manuscript
-
-Describes structure and content.\
-Not a program. No logic. Just: **"what is what."**
-
-**Other common markup languages:**
-- Markdown — lightweight formatting for text
-- YAML — config files and data serialization
-- XML — data storage and transfer
-</v-clicks>
-
-<!--
-- Markup languages are not programming languages because they don't have logic or control flow. They are just a way to describe the structure and content of a document or data. They are often used in conjunction with programming languages, but they serve a different purpose.
-- That is ont the other hand not true, in HTML you can have JavaScript embedded, and in XML you can have XSLT which is a programming language. But the point is that the markup itself is not a programming language, it's just a way to describe data.
- -->
-
----
-layout: center
----
-
-# Scripting Language
-
-<v-clicks>
-
-*e.g. JavaScript, Python*
-
-Instructions that execute at runtime.\
-Runs as-is — no build step needed.
-
-*Why "scripting"?* Historically, they were for automating tasks (scripts) rather than building full applications. Now the line is blurry.
-
-<!--
-- What is a build step? It's a process that transforms source code into a form that can be executed. For compiled languages, this is the compilation step.
- -->
-
-</v-clicks>
-
----
-layout: center
----
-
-# Programming Language
-
-<v-clicks>
-
-*e.g. Java, C++*
-
-Requires a build step (compilation) to run.\
-Often faster and more powerful, but less flexible for quick changes.
-
-*Why "programming"?* They were designed for building complex software (programs) rather than automating tasks. Again, the line is blurry.
-
-</v-clicks>
-
-<!--
-For vibe coding, scripting languages are often more convenient because they allow for faster iteration without the overhead of a build step. However, programming languages can be used in a vibe coding style as well, especially with modern tools that have fast compilation or hot reloading. Errors in programming languages can be more disruptive because they might prevent the code from running at all, whereas scripting languages might allow you to run parts of the code and fix errors on the fly. This is something to keep in mind when choosing your tools for vibe coding.
- -->
 
 ---
 layout: center
@@ -119,8 +51,7 @@ layout: center
 - **Framework** — a more complete structure for building an app, with rules and conventions.
 - **Package** — how that code gets distributed and installed.
 
-`npm install x` → done.\
-`pip install x` → done.
+*Training data for LLMs is always a bit outdated, they might suggest libraries or frameworks that are no longer the best choice, or they might not be aware of the latest versions. Always check the current state of the ecosystem before following an LLM's recommendation for which tools to use.*
 
 <!--
 - A library is like a toolbox: you pick the tools you need. A framework is like a blueprint: you build your house according to its design. A package is like a delivery service: it gets the tools or blueprint to you in a way that's easy to use.
@@ -141,8 +72,6 @@ layout: center
 A defined interface between two systems, for example the frontend and backend, or your code and a third-party service.
 
 Data goes in, data comes out. The API defines the format and rules for that exchange.
-
-Today most APIs are HTTP-based, where you send a request to a URL and get JSON back. But the concept is broader than that.
 
 <!--
 - APIs are how different parts of a system communicate with each other. They can be internal (between your frontend and backend) or external (between your code and a third-party service). Understanding APIs is crucial for vibe coding, as you'll often be working with them to integrate different services or to structure your own code.
@@ -401,36 +330,63 @@ Tokens are the unit of work. Relevant for rate limits and API pricing.
 
 <v-clicks>
 
+- **Describe the result, not the path** — "clicking the button changes the color"
+- **Explicit negatives** — "don't touch the CSS", "no new files"
 - **Context before task** — what's the project, what exists, what's the goal. Then the ask.
-- **Name your frameworks** — "use Tailwind", "vanilla JS" — specificity kills ambiguity
 - **Show, don't just tell** — screenshot or URL beats a paragraph
 - **One main task, 2–3 constraints** — not too vague, not 10 requirements at once
-- **Describe the result, not the path** — "clicking the button changes the color"
-- **Explicit negatives** — "no external libs", "don't touch the CSS", "no new files"
 
 </v-clicks>
 
 ---
 
-# What is Vibe Coding?
+# Exercise: Complexity Calibration
 
-<v-click>
+<v-clicks>
 
-There's a new kind of coding I call "vibe coding", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper so I barely even touch the keyboard. I ask for the dumbest things like "decrease the padding on the sidebar by half" because I'm too lazy to find it. I "Accept All" always, I don't read the diffs anymore. When I get error messages I just copy paste them in with no comment, usually that fixes it. The code grows beyond my usual comprehension, I'd have to really read through it for a while. Sometimes the LLMs can't fix a bug so I just work around it or ask for random changes until it goes away. It's not too bad for throwaway weekend projects, but still quite amusing. I'm building a project or webapp, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works.
+**Vote on 10 project ideas:** One session / Multiple sessions / Too complex?
 
-*Andrej Karpathy / @karpathy / 3. Feb. 2025*
+1. A page displaying photos in a grid
+2. An interactive quiz with score
+3. A chat app for multiple users
+4. A button that plays a sound
+5. A generative pattern that changes on click
+6. A to-do list that saves between sessions
+7. An interactive story with branching choices
+8. A login system with accounts
+9. A portfolio page with image lightbox
+10. A weather app for any city
 
-</v-click>
+</v-clicks>
+
+<!--
+Duration: 30 minutes
+After voting, discuss why each belongs in its category.
+Key complexity flags: saving data, external APIs, multiple users.
+Self-contained + visual = usually achievable in one session.
+
+1. A page displaying photos in a grid — *one session*
+2. An interactive quiz with score — *one session*
+3. A chat app for multiple users — *too complex*
+4. A button that plays a sound — *one session*
+5. A generative pattern that changes on click — *one session*
+6. A to-do list that saves between sessions — *multiple sessions (needs storage)*
+7. An interactive story with branching choices — *one session (if text-only)*
+8. A login system with accounts — *too complex*
+9. A portfolio page with image lightbox — *multiple sessions*
+10. A weather app for any city — *multiple sessions (external API)*
+ -->
+
 
 ---
 layout: center
 ---
 
-# Short Break
+# Long Break
 
 [motivational tagline here]
 
-<Countdown :minutes="10" :autostart="true" />
+<Countdown :minutes="30" :autostart="true" />
 
 ---
 layout: section
@@ -453,33 +409,6 @@ layout: section
 
 </v-clicks>
 
-
----
-
-# Shell Basics
-
-```bash
-cd foldername    # go into a folder
-cd ..            # go up one level
-ls               # list contents (Mac/Linux)
-node file.js     # run a Node script
-python file.py   # run a Python script
-```
-
-<v-click>
-
-**Shortcuts:**
-- `Tab` — autocomplete paths and commands
-- `↑ / ↓` — navigate command history
-
-*Exercise: navigate from home to your project folder. Run a script.*
-
-</v-click>
-
-<!--
-- Most important is the meaning of charaters like spaces, dots, and slashes. For example, `cd ..` means "go up one level" because `..` refers to the parent directory. The `ls` command lists the contents of the current directory, and `node file.js` or `python file.py` runs a script with the respective runtime. The shortcuts can save you a lot of time, especially when navigating through directories or recalling previous commands.
- -->
-
 ---
 
 # Version Control
@@ -489,10 +418,8 @@ python file.py   # run a Python script
 **Key terms:**
 - `repository` — project + full history
 - `commit` — a named snapshot
-- `branch` — a parallel timeline
 - `push / pull` — sync with remote
-- `merge` — combine branches
-- `conflict` — two edits clash (solvable)
+- `branch` — a parallel timeline
 
 </v-clicks>
 
@@ -505,8 +432,6 @@ In VS Code: Source Control panel → stage → commit message → push.
 <!--
 - Git can be confusing at first, because it changes the way you know your files. Branching and merging can be especially tricky, because you have to understand the concept of parallel timelines and how changes from different branches can conflict with each other. The key is to practice and not be afraid of making mistakes, because Git allows you to revert changes and learn from them.
  -->
-
--->
 
 ---
 layout: section
@@ -531,10 +456,11 @@ layout: section
 <v-click>
 
 > Feel the loop:
-> **Prompt → Output → Test → Correct → Repeat**
+> **Prompt → Test → Debug → Repeat**
 
 </v-click>
 
 <!--
 Circulate. Watch how prompts are written. Only step in after >10 min of being stuck.
 -->
+

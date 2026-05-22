@@ -46,19 +46,22 @@ layout: default
  -->
 
 ---
+addons:
+    - slidev-addon-qrcode
+---
 
 # Admin
 
 <v-clicks>
 
-- Attendance highly encouraged, sign in via Discord
+- Attendance highly encouraged
 - Offline and online sessions
+- Send me a DM with your *Matrikelnummer* and check in every day with a "gm" in `#attendance` channel
 
 ## Communication
-- Join the Discord server https://discord.gg/THc5BF9wXF
+- Join the Discord server https://discord.gg/THc5BF9wXF <img :src="`${$base}discord.png`" style="float: right; width: 80px; height: 80px;" />
 - Use the `#general` channel for questions and discussions
-- Dedicated channel for each project group
-- Shared repository for resources and materials, we will share the link in the `#general` channel
+- Create dedicated channels for each project group
 
 ## Examination modalities
 
