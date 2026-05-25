@@ -143,9 +143,8 @@ Beispiel: Das Projekt läuft lokal, aber nicht beim Kommilitonen – weil eine L
 ## Mittwoch – Methoden & Konzeption
 
 ### Impulsvorträge (je ~15 min + Fragen)
-- **Peter:** Spec-Driven Development – warum Spezifikation vor Code
+- **Philipp:** Einblicke in Setup und Workflow
 - **Esad:** Advanced Agentic Coding – wie Agenten in der Praxis arbeiten
-- **Julian & Jonas:** Beispiele aus der eigenen Praxis
 - **Offene Fragerunde**
 
 ---

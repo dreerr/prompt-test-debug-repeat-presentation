@@ -22,10 +22,6 @@ Today we will explore more advanced methods for working with LLMs, including spe
 
 *Open Q&A after each talk*
 
-<!--
-
- -->
-
 ---
 layout: section
 ---
