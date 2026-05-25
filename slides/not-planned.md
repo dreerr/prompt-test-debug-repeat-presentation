@@ -159,3 +159,31 @@ There's a new kind of coding I call "vibe coding", where you fully give in to th
 - No spec → no way to know if it's done
 
 </v-clicks>
+
+
+---
+layout: center
+---
+
+# Your Most Useful Debugging Tool
+
+Right-click anywhere → **Inspect** → **Console** tab
+
+<v-click>
+
+Red text = error messages.
+
+You don't need to understand them — **copy and paste to the AI.**
+
+This solves most "it doesn't work" situations in one step.
+
+### OR
+
+Use VS Code's built-in browser preview and its agent sharing feature to show the AI the error messages directly.
+
+</v-click>
+
+<!--
+Demo this live. Open the console, trigger a visible error, copy the red text. Normalise error messages as useful information, not signs of failure. Students often try to describe errors from memory instead of copying them exactly.
+-->
+

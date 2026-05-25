@@ -197,12 +197,22 @@ layout: section
 layout: center
 ---
 
+<SlidevVideo v-click autoplay controls class="h-1/2">
+  <source :src="`${$base}vier-gewinnt.mp4`" type="video/mp4">
+</SlidevVideo>
+
+Source: [MB-Spiele-Werbung aus dem Jahr 1982](https://www.tiktok.com/@gnsehaut.erfolg/video/7494601861736058134)
+
+---
+layout: center
+---
+
 # Pen & Paper
 
 No screens.
 
-Describe the game of **Tic Tac Toe**
-without using the words "Tic Tac Toe".
+Describe the game of **Vier Gewinnt (Connect Four)**\
+without using the words "Vier Gewinnt (Connect Four)".
 
 > Goal: feel what *precise and complete* means
 
@@ -294,6 +304,8 @@ Full or noisy → quality drops. New session = clean slate.
 **Rule of thumb:**
 Short sessions. Targeted context. Don't cram everything in.
 
+Further reading: [System prompt](https://platform.claude.com/docs/en/release-notes/system-prompts)
+
 </v-clicks>
 
 <!--
@@ -301,10 +313,51 @@ Short sessions. Targeted context. Don't cram everything in.
  -->
 
 ---
+layout: two-cols-header
+---
 
-# Agentic AI vs simple Chatbot
+# Chatbot vs. Agent
 
-## WIP!!!
+<v-click>
+
+Both are conversational interfaces, but they have different capabilities and use cases.\
+**A chatbot responds, an agent acts.**
+
+</v-click>
+
+::left::
+
+<v-clicks>
+
+## Chatbot
+
+- Stateless text exchange
+- Input → Output
+- Responds to what you said, not to a goal
+
+## Reasoning model
+
+- Still text in/text out, but thinks before answering
+— breaks problems into steps, checks its own logic, backtracks
+- Slower, more accurate on complex tasks
+- Still passive: it doesn't do anything, it just figures out more carefully
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+## Agent
+
+- Has a goal, a loop, and tools
+- Plans → acts → observes result → replans
+- Can browse, write and run code, read/write files, call APIs
+- Operates across multiple steps without you driving each one
+- Fails in compounding ways
+
+</v-clicks>
+
 
 
 ---
@@ -466,58 +519,6 @@ In VS Code: Source Control panel → stage → commit message → push.
  -->
 
 ---
-layout: center
----
-
-# Your Most Useful Debugging Tool
-
-Right-click anywhere → **Inspect** → **Console** tab
-
-<v-click>
-
-Red text = error messages.
-
-You don't need to understand them — **copy and paste to the AI.**
-
-This solves most "it doesn't work" situations in one step.
-
-### OR
-
-Use VS Code's built-in browser preview and its agent sharing feature to show the AI the error messages directly.
-
-</v-click>
-
-<!--
-Demo this live. Open the console, trigger a visible error, copy the red text. Normalise error messages as useful information, not signs of failure. Students often try to describe errors from memory instead of copying them exactly.
--->
-
----
-
-# Warning Signs
-
-Stop and reconsider if:
-
-<v-clicks>
-
-- The AI keeps apologising ("I apologise for the confusion…")
-- Fixes undo previous fixes (fix A breaks B, fix B breaks A)
-- Explanations get longer and more complicated each message
-- The AI suggests a completely different approach with no explanation
-- You've been stuck on the same thing for more than 20 minutes
-
-</v-clicks>
-
-<v-click>
-
-→ Save what works. New conversation. Clean description.
-
-</v-click>
-
-<!--
-Any one of these warning signs means it's time to reset, not keep pushing. The instinct to push through usually makes things worse.
--->
-
----
 layout: section
 ---
 
@@ -548,3 +549,28 @@ layout: section
 Circulate. Watch how prompts are written. Only step in after >10 min of being stuck.
 -->
 
+---
+
+# Warning Signs
+
+Stop and reconsider if:
+
+<v-clicks>
+
+- The AI keeps apologising ("I apologise for the confusion…")
+- Fixes undo previous fixes (fix A breaks B, fix B breaks A)
+- Explanations get longer and more complicated each message
+- The AI suggests a completely different approach with no explanation
+- You've been stuck on the same thing for more than 20 minutes
+
+</v-clicks>
+
+<v-click>
+
+→ Save what works. New conversation. Clean description.
+
+</v-click>
+
+<!--
+Any one of these warning signs means it's time to reset, not keep pushing. The instinct to push through usually makes things worse.
+-->
