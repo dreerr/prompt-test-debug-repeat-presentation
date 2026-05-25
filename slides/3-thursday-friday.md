@@ -6,6 +6,8 @@ layout: section
 ## Build
 
 ---
+hideInToc: true
+---
 
 # Daily Structure
 
@@ -13,68 +15,13 @@ layout: section
 |------|------|
 | Morning | Standup per group |
 | Main block | Project work |
-| Thu afternoon | Midpoint check-in + feedback |
 | End of day | Short team reflection |
-
----
-layout: section
----
-
-# From Idea to Project
-
----
-
-# PRD — Product Requirements Document
-
-*Write before you prompt.*
-
-<v-clicks>
-
-**Structure:**
-- **Goal** — what problem are we solving?
-- **Target audience** — who is it for?
-- **Features** — Must / Should / Could
-- **Non-goals** — what's explicitly out of scope
-
-</v-clicks>
-
-<v-click>
-
-**Exercise:** Write a 1-page mini-PRD for your project idea.
-
-</v-click>
-
----
-
-# Spec-Driven Development
-
-> Clear spec → predictable output
-
-<v-clicks>
-
-**Acceptance Criteria:**
-
-"This feature is done when..."
-
-Concrete. Testable. No room for interpretation.
-
-</v-clicks>
-
-<v-click>
-
-**The Loop:**
-
-Spec → Prompt → Test → Commit *(or restart)*
-
-</v-click>
-
-
 
 ---
 layout: center
 ---
 
-# Standup Format
+# Morning Standup
 
 Two questions. Under 5 minutes.
 
@@ -87,36 +34,38 @@ Two questions. Under 5 minutes.
 
 ---
 layout: center
+hideInToc: true
 ---
 
 # While You Work
 
-The instructor circulates.
+Julian and Jonas circulate.
 
 Intervention only when:
 - You ask for it, or
 - You've been stuck for **> 20 minutes**
 
 ---
-
-# What the Instructor Watches For
-
-<v-clicks>
-
-- Who tests incrementally — and who builds blind?
-- Who describes errors precisely — and who says "it doesn't work"?
-- Who restarts at dead ends — and who keeps fighting?
-- Who's scope-creeping?
-
-</v-clicks>
-
----
 layout: quote
+hideInToc: true
 ---
 
-"What's the smallest version
-that shows the idea?"
+# What's the smallest version that shows the idea?
 
 <!--
 Say this often. Scope creep is the number one killer.
 -->
+
+---
+layout: center
+---
+
+# Team Reflection
+Two questions. Under 5 minutes.
+
+<v-clicks>
+
+1. What went well today?
+2. What do we want to try tomorrow?
+
+</v-clicks>

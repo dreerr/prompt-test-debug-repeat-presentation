@@ -58,6 +58,7 @@ Categories TBD:
 
 ---
 layout: section
+hideInToc: true
 ---
 
 # Closing
@@ -76,6 +77,7 @@ layout: section
 
 ---
 layout: center
+hideInToc: true
 ---
 
 # Go build something.
@@ -89,27 +91,29 @@ layout: section
 *If time allows*
 
 ---
+hideInToc: true
+---
 
 # Got Time? Good Problems.
 
 <v-clicks>
 
-**"What went wrong here?"**  
+**"What went wrong here?"**
 Look at broken code or a failed Copilot session. Diagnose — don't fix. Trains the eye without success pressure.
 
-**Reverse Engineering**  
+**Reverse Engineering**
 Open a finished small project. No explanation. What does it do? What breaks if you change X?
 
-**Prompt Battle**  
+**Prompt Battle**
 Same task, two prompts, two outputs. Compare. Why did one work better?
 
-**20-Minute Sprint**  
+**20-Minute Sprint**
 Free mini-experiment. Nothing has to finish. Good pressure valve after a long theory day.
 
-**Context Window Experiment**  
+**Context Window Experiment**
 Push a conversation until quality visibly degrades. Makes the abstract concept tangible.
 
-**Silent Reflection + Discord Post**  
+**Silent Reflection + Discord Post**
 5 min writing: what did I learn today? Post to the workshop channel.
 
 </v-clicks>
