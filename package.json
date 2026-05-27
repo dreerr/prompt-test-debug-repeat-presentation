@@ -6,7 +6,9 @@
   "license": "ISC",
   "scripts": {
     "dev": "slidev slides.md",
+    "dev:philipp": "slidev philipp-preview.md",
     "build": "slidev build slides.md",
+    "build:philipp": "slidev build philipp-preview.md",
     "export": "slidev export slides.md"
   },
   "dependencies": {
