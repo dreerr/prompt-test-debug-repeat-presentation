@@ -4,7 +4,7 @@
 
 - 10:15 - 10:30: **Welcome and Introduction**
   - Thank you for coming and your interest in this workshop. We will be covering a lot of material today, so please feel free to ask questions and engage in discussions.
-  - My name is Julian Palacz, I am a media artist and programmer based in Vienna. I have been working with generative art and creative coding for several years, and I am excited to share my knowledge and experience with you today. My body of art evolves around the topics of privacy, mass surveillance and traces we leave behind, often without knowing.
+  - I am a media artist and programmer based in Vienna. I have been working with generative art and creative coding for several years, and I am excited to share my knowledge and experience with you today. My body of art evolves around the topics of privacy, mass surveillance and traces we leave behind, often without knowing.
   - Jonas Bohatsch from Coding Lab will support us through out the first 3 days and give us support and additional input.
   - We will spend a lot of time on our devices during the week, that is why we will have dedicated offline time. This now is offline time, please put your devices away.
   - This workshop aims to be a practical course, we will learn how to use certain terms and tools.
@@ -56,4 +56,4 @@
     - Hallucinations: how can we avoid them when it comes to coding?
     - Model differences: who experienced model differences at first hand?
     - Tokens and costs: We will see how differently prices models are and when to use which model.
-  - 
+  -

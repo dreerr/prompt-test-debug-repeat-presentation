@@ -39,8 +39,6 @@ hideInToc: true
 
 # While You Work
 
-Julian and Jonas circulate.
-
 Intervention only when:
 - You ask for it, or
 - You've been stuck for **> 20 minutes**

@@ -30,7 +30,7 @@ src: ./2-wednesday-philipp.md
 layout: section
 ---
 
-# Group Formation
+# Group Formation / Individual Work
 
 ---
 
@@ -49,8 +49,3 @@ Is this doable in 2–3 days?
 > What's the smallest version that shows the idea?
 
 </v-click>
-
-<!--
-Do a quick sanity check with each group. Be direct about scope.
-Overambition is the default. Counter it.
--->

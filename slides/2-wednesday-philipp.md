@@ -5,6 +5,8 @@ layout: section
 # AI-Driven Development
 ## Setup & Workflow
 
+Slides from Philipp
+
 ---
 layout: center
 ---
