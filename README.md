@@ -10,7 +10,7 @@ This repository contains the slides and materials for the Prompt, Test, Debug, R
 
 ## Projects
 
-* **[My Synthetic Diary](https://eugeniedt.github.io/syntheticdiary/) by Eugenie Desmedt** - A large language model was trained on diary entries spanning 2017 to May 2026. Every couple of days, the model generates a new entry. The entries are posted without intervention.
+* **[My Synthetic Diary](https://eugeniedt.github.io/syntheticdiary/) by Eugenie** - A large language model was trained on diary entries spanning 2017 to May 2026. Every couple of days, the model generates a new entry. The entries are posted without intervention.
 
 * **[Living Archive](https://stephanieneuburg.github.io/living-archive/) by Stephanie** - An experimental, spatial visual-discovery interface for image collections. Not a standard gallery — instead of opening one file at a time in a folder tree, Living Archive arranges a whole folder of images into an interactive atlas: swarms and clusters that surface the relationships between images so you can browse, compare, and notice patterns. [Repository](https://github.com/stephanieneuburg/living-archive)
 
